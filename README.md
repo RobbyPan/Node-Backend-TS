@@ -6,22 +6,22 @@
 会基于个人开发情况持续更新必要的配置，欢迎Issues
 
 ##  基础架构
-`
-├─app.ts 入口文件
-├─config  
-├─└index.ts 全局配置文件
-├─util 工具模块
-├─└jwt.ts jwt部分方法的Promise封装
-├─router  用于配置URL路由
-├─model  数据的持久层MySQL
-├─middleware  #用于编写中间件
-├─└auth.ts 身份验证中间件
-├─└error-handler.ts 服务端全局错误处理
-├─.babelrc 配置允许ES6写法 
-├─,gitignore  
-├─package.json nodemon热更新及ts版本node启动
-└─tsconfig.json 关闭了严格模式  
-`
+
+├─app.ts 入口文件<br>
+├─config<br>
+├─└index.ts 全局配置文件<br>
+├─util 工具模块<br>
+├─└jwt.ts jwt部分方法的Promise封装<br>
+├─router  用于配置URL路由<br>
+├─model  数据的持久层MySQL<br>
+├─middleware  #用于编写中间件<br>
+├─└auth.ts 身份验证中间件<br>
+├─└error-handler.ts 服务端全局错误处理<br>
+├─.babelrc 配置允许ES6写法<br>
+├─.gitignore <br>
+├─package.json nodemon热更新及ts版本node启动<br>
+└─tsconfig.json 关闭了严格模式<br>  
+
 
 ##  使用
   
