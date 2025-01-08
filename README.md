@@ -6,6 +6,7 @@
 会基于个人开发情况持续更新必要的配置，欢迎Issues
 
 ##  基础架构
+`
 ├─app.ts 入口文件
 ├─config  
 ├─└index.ts 全局配置文件
@@ -20,6 +21,7 @@
 ├─,gitignore  
 ├─package.json nodemon热更新及ts版本node启动
 └─tsconfig.json 关闭了严格模式  
+`
 
 ##  使用
   
