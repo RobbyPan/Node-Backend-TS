@@ -17,7 +17,7 @@
 ├─middleware  #用于编写中间件
 ├─└auth.ts 身份验证中间件
 ├─└error-handler.ts 服务端全局错误处理
-~~├─.babelrc 配置允许ES6写法~~
+├─~~.babelrc 配置允许ES6写法~~
 ├─,gitignore  
 ├─package.json ~~nodemon热更新~~及ts版本node启动
 └─tsconfig.json 关闭了严格模式
@@ -36,5 +36,5 @@
 3. 提交代码
 4. 新建 Pull Request
 
-##更新日志
+## 更新日志
 - 2025-12-04 使用 tsx 进行开发、tsc 进行生产打包，移除 babel 及其相关依赖；tsc 工作的核心为 tsconfig.json 文件；
